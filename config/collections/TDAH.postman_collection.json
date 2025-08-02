@@ -1,0 +1,1638 @@
+{
+	"info": {
+		"_postman_id": "bdd6b4e4-651f-4cb6-9505-39f551ca2d3b",
+		"name": "TDAH",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37413968"
+	},
+	"item": [
+		{
+			"name": "Publications",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODc3NDU2YmU0NDM0NzMxNmIwNjRmMWMiLCJpYXQiOjE3NTI2NDc2MzAsImV4cCI6MTc1MjY2NTYzMH0.BqHOP7Q9paAjMCEYnDtLSVdqss8YHMrzrFeda9cnB8E",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"Buenas tardes\",\r\n    \"content\":\"Hay tarea, y ya\",\r\n    \"author\":\"6877456be44347316b064f1c\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/publications/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"publications",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/publications/find/685f7e9956e9ba6ab3cee306",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"publications",
+								"find",
+								"685f7e9956e9ba6ab3cee306"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODc3NDU2YmU0NDM0NzMxNmIwNjRmMWMiLCJpYXQiOjE3NTI2NDc4ODcsImV4cCI6MTc1MjY2NTg4N30.bdHAdEPUuh-war1PPqvG6ePIh4OQb-jAKhUPXjaCwlg",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/publications/687747e0e1ea49ff9ec4e475",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"publications",
+								"687747e0e1ea49ff9ec4e475"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"content\":\"Que es Ionic?\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/publications/685f7fc57232bee5c4e60503",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"publications",
+								"685f7fc57232bee5c4e60503"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/publications/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"publications",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Comments",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODc3NDg5ZmUxZWE0OWZmOWVjNGU0N2QiLCJpYXQiOjE3NTI2NDk0MTksImV4cCI6MTc1MjY2NzQxOX0.BK-63TjYJhLyfdUPlXCKiqWpvbWBpLllwi6qBwn3V_E",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"content\":\"A bueno\",\r\n    \"publicationId\":\"687747e0e1ea49ff9ec4e475\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/comments/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"comments",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/comments/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"comments",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/comments/find/6860cfb6384eba9e51d61362",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"comments",
+								"find",
+								"6860cfb6384eba9e51d61362"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/comments/6860cfe2384eba9e51d61365",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"comments",
+								"6860cfe2384eba9e51d61365"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"content\":\"Si mandril q si hombre\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/comments/6860cfb6384eba9e51d61362",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"comments",
+								"6860cfb6384eba9e51d61362"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/comments/post/6860ce54e699631d51697553",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"comments",
+								"post",
+								"6860ce54e699631d51697553"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\" : \"crosas\",\r\n    \"password\" : \"1234567890\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/auth/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"Jorge Peralta\",\r\n    \"username\" : \"jperalta\",\r\n    \"email\" : \"jperalta@kinal.edu.gt\",\r\n    \"password\" : \"1234567890\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/auth/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ViewUsers",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODZmNTc2OTI5M2NmNzY4MjRlMzRmNzAiLCJpYXQiOjE3NTIxMjczMzksImV4cCI6MTc1MjE0NTMzOX0.-N5lXRLJS5PSAAOs0xw2Bujwh13hIxSOnrW33GmZGhM",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/users/viewUsers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"users",
+								"viewUsers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ViewUsersById",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODZmNTc2OTI5M2NmNzY4MjRlMzRmNzAiLCJpYXQiOjE3NTIxMjczMzksImV4cCI6MTc1MjE0NTMzOX0.-N5lXRLJS5PSAAOs0xw2Bujwh13hIxSOnrW33GmZGhM",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/users/viewUserbyId",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"users",
+								"viewUserbyId"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateUser",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODZmNTc2OTI5M2NmNzY4MjRlMzRmNzAiLCJpYXQiOjE3NTIxMjczMzksImV4cCI6MTc1MjE0NTMzOX0.-N5lXRLJS5PSAAOs0xw2Bujwh13hIxSOnrW33GmZGhM",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"Kevin Reyes\",\r\n    \"username\" : \"kreyes\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/users/updateUser/686f5769293cf76824e34f70",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"users",
+								"updateUser",
+								"686f5769293cf76824e34f70"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdatePassword",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODZmNTc2OTI5M2NmNzY4MjRlMzRmNzAiLCJpYXQiOjE3NTIxMjczMzksImV4cCI6MTc1MjE0NTMzOX0.-N5lXRLJS5PSAAOs0xw2Bujwh13hIxSOnrW33GmZGhM",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"passwordOld\" : \"1234567890\",\r\n    \"passwordNew\" : \"1234567899\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/users/updatePassword/686f5769293cf76824e34f70",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"users",
+								"updatePassword",
+								"686f5769293cf76824e34f70"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteUser",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODZmNTc2OTI5M2NmNzY4MjRlMzRmNzAiLCJpYXQiOjE3NTIxMjc5NzksImV4cCI6MTc1MjE0NTk3OX0.BtXyJjYKP_9-YEvlH__g5kHr81J_wyJkVK4wzQjiZ28",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"confirm\" : true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/users/deleteUser/686f5769293cf76824e34f70",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"users",
+								"deleteUser",
+								"686f5769293cf76824e34f70"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ToDoList",
+			"item": [
+				{
+					"name": "CreateToDoList",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODhjMGZhNTc0NzAwMTYxMWMxNTYyNjkiLCJpYXQiOjE3NTQwNzgwMDYsImV4cCI6MTc1NDA5NjAwNn0._8E0yqB2Ju7heuphAsnxfT2g3E327mFxkTp6V_VCCZA",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"taskName\": \"Terminar informe\",\r\n    \"taskDescription\": \"Completar el informe semanal\",\r\n    \"dueDate\": \"2025-08-02T18:00:00.000Z\",\r\n    \"priority\": \"Important\",\r\n    \"nameSubject\": \"lengua y literatura\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/toDoList/create-ToDoList",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"toDoList",
+								"create-ToDoList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateToDoList",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODhjMGZhNTc0NzAwMTYxMWMxNTYyNjkiLCJpYXQiOjE3NTQwNzgwMDYsImV4cCI6MTc1NDA5NjAwNn0._8E0yqB2Ju7heuphAsnxfT2g3E327mFxkTp6V_VCCZA",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"taskName\": \"Terminar informe actualizado\",\r\n  \"taskStatus\": \"Completed\",\r\n  \"priority\": \"Medium\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/toDoList/update-ToDoList/688d29401a108f4ca7a1926d",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"toDoList",
+								"update-ToDoList",
+								"688d29401a108f4ca7a1926d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EliminarToDoList",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/toDoList/delete-ToDoList/:taskId",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"toDoList",
+								"delete-ToDoList",
+								":taskId"
+							],
+							"variable": [
+								{
+									"key": "taskId",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetTodoList",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODhjMGZhNTc0NzAwMTYxMWMxNTYyNjkiLCJpYXQiOjE3NTQwNzgwMDYsImV4cCI6MTc1NDA5NjAwNn0._8E0yqB2Ju7heuphAsnxfT2g3E327mFxkTp6V_VCCZA",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/toDoList/get-ToDosList",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"toDoList",
+								"get-ToDosList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetTodoListTaskName",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/toDoList/get-ToDosList?taskName",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"toDoList",
+								"get-ToDosList"
+							],
+							"query": [
+								{
+									"key": "taskName",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetTodoListDueDate",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/toDoList/get-ToDosList?dueDate",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"toDoList",
+								"get-ToDosList"
+							],
+							"query": [
+								{
+									"key": "dueDate",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetTodoListPriority",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/toDoList/get-ToDosList?priority ",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"toDoList",
+								"get-ToDosList"
+							],
+							"query": [
+								{
+									"key": "priority ",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CategorySubject",
+			"item": [
+				{
+					"name": "RequestAddCategorySubject",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODg5YTdmMTJmNjcxNWRjMDI0ZmMxOTQiLCJpYXQiOjE3NTM5MTI5ODMsImV4cCI6MTc1MzkzMDk4M30.Qn2hjajFE3x7uMW544ea2xkt35aJJInAFMs6r3bJjtE",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nameSubject\" : \"Matematicas\",\r\n    \"descriptionSubject\" : \"Es una materia que se basa en los numeros y solucion de problemas\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/categorySubject/requestCreateSubject",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"categorySubject",
+								"requestCreateSubject"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "viewRequestPendingCategory",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODZmNTU0MDRkOGMzYmRlOGY5YmIwZGUiLCJpYXQiOjE3NTM5MTQyNzAsImV4cCI6MTc1MzkzMjI3MH0.mFIWdpmPYvoGGhgp4cwGSTVKfl-MBZA_JZkBUdilr1E",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/categorySubject/viewRequestSubject",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"categorySubject",
+								"viewRequestSubject"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateRequestCategorySubject",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODZmNTU0MDRkOGMzYmRlOGY5YmIwZGUiLCJpYXQiOjE3NTM5MTQyNzAsImV4cCI6MTc1MzkzMjI3MH0.mFIWdpmPYvoGGhgp4cwGSTVKfl-MBZA_JZkBUdilr1E",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"confirm\" : true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/categorySubject/updateRequestSubject/688a972fa8e903ad8c163857",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"categorySubject",
+								"updateRequestSubject",
+								"688a972fa8e903ad8c163857"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ViewCategorySubject",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/categorySubject/viewSubject",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"categorySubject",
+								"viewSubject"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "assigMeCategorySubject",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODhjMGZhNTc0NzAwMTYxMWMxNTYyNjkiLCJpYXQiOjE3NTQwNzgwMDYsImV4cCI6MTc1NDA5NjAwNn0._8E0yqB2Ju7heuphAsnxfT2g3E327mFxkTp6V_VCCZA",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"assignMe\" : true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/categorySubject/assignMeSubject/688aeb2edc0076fd54148a94",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"categorySubject",
+								"assignMeSubject",
+								"688aeb2edc0076fd54148a94"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "viewCategorySubjectByUser",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODg5YTdmMTJmNjcxNWRjMDI0ZmMxOTQiLCJpYXQiOjE3NTM5MTU3NTcsImV4cCI6MTc1MzkzMzc1N30.Vjhbg8LYTkAy4Zt2O6mteXnTEiNSzhgTDPMQu27ZNlY",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/categorySubject/viewUserSubject",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"categorySubject",
+								"viewUserSubject"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Successes",
+			"item": [
+				{
+					"name": "AddSuccesses",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODZmNTU0MDRkOGMzYmRlOGY5YmIwZGUiLCJpYXQiOjE3NTM5MzE4MTQsImV4cCI6MTc1Mzk0OTgxNH0.Oc3ebzIgPft_SBTzCpOaIltMCHwXCSMEAiXYbGaaaus",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nameSuccess\" : \"Primer Logro\",\r\n    \"descriptionSuccess\" : \"Entrega 2 tareas por dia para recibir 2000 puntos que podras canjear por premios\",\r\n    \"points\" : 2000,\r\n    \"amountTasks\" : 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/successes/createSuccesses",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"successes",
+								"createSuccesses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ViewSuccesses",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODhjMGZhNTc0NzAwMTYxMWMxNTYyNjkiLCJpYXQiOjE3NTQwNzgwMDYsImV4cCI6MTc1NDA5NjAwNn0._8E0yqB2Ju7heuphAsnxfT2g3E327mFxkTp6V_VCCZA",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/successes/viewSuccesses",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"successes",
+								"viewSuccesses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateSuccesses",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODZmNTU0MDRkOGMzYmRlOGY5YmIwZGUiLCJpYXQiOjE3NTM5MzE4MTQsImV4cCI6MTc1Mzk0OTgxNH0.Oc3ebzIgPft_SBTzCpOaIltMCHwXCSMEAiXYbGaaaus",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nameSuccess\" : \"Primer Logro\",\r\n    \"descriptionSuccess\" : \"Entrega 2 tareas por dia para recibir 2000 puntos que podras canjear por premios en el apartado de premios.\",\r\n    \"points\" : 2000,\r\n    \"amountTasks\" : 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/successes/updateSuccesses/688ae4a926574a3b9c189d73",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"successes",
+								"updateSuccesses",
+								"688ae4a926574a3b9c189d73"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteSuccess",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODZmNTU0MDRkOGMzYmRlOGY5YmIwZGUiLCJpYXQiOjE3NTM5MzE4MTQsImV4cCI6MTc1Mzk0OTgxNH0.Oc3ebzIgPft_SBTzCpOaIltMCHwXCSMEAiXYbGaaaus",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"confirm\" : true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/successes/deleteSuccesses/688ae4a926574a3b9c189d73",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"successes",
+								"deleteSuccesses",
+								"688ae4a926574a3b9c189d73"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PucharseWithPoints",
+			"item": [
+				{
+					"name": "ShoppingCart",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODhjMGZhNTc0NzAwMTYxMWMxNTYyNjkiLCJpYXQiOjE3NTQwNzIyMDMsImV4cCI6MTc1NDA5MDIwM30.GJVWc6_-CrkJJT32rv0kIFzOhgk1A6MQxyqdt4i4pBs",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"amountProduct\" : 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/pucharseWithPoints/shoppingCartUser/688d0370dbd1630b64c57228",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"pucharseWithPoints",
+								"shoppingCartUser",
+								"688d0370dbd1630b64c57228"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ConfirmPucharse",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODhjMGZhNTc0NzAwMTYxMWMxNTYyNjkiLCJpYXQiOjE3NTQwNzIyMDMsImV4cCI6MTc1NDA5MDIwM30.GJVWc6_-CrkJJT32rv0kIFzOhgk1A6MQxyqdt4i4pBs",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/pucharseWithPoints/confirmPurchase",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"pucharseWithPoints",
+								"confirmPurchase"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Products",
+			"item": [
+				{
+					"name": "AddProducts",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODZmNTU0MDRkOGMzYmRlOGY5YmIwZGUiLCJpYXQiOjE3NTQwNzE4NDksImV4cCI6MTc1NDA4OTg0OX0.lp0h3CfEdaFPtwE9W_oHiKTQAYAFo6SS_E-uEtaGJ30",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nameProduct\" : \"Skin de naruto\",\r\n    \"descriptionProduct\" : \"es una skin\",\r\n    \"pricePoints\" : 1000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/pucharseWithPoints/createProduct",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"pucharseWithPoints",
+								"createProduct"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ViewProducts",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/pucharseWithPoints/viewProduct",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"pucharseWithPoints",
+								"viewProduct"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateProduct",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODZmNTU0MDRkOGMzYmRlOGY5YmIwZGUiLCJpYXQiOjE3NTQwNzE4NDksImV4cCI6MTc1NDA4OTg0OX0.lp0h3CfEdaFPtwE9W_oHiKTQAYAFo6SS_E-uEtaGJ30",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nameProduct\" : \"Skin de goku\",\r\n    \"descriptionProduct\" : \"es una skin\",\r\n    \"pricePoints\" : 1500\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/pucharseWithPoints/updateProduct/688d0370dbd1630b64c57228",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"pucharseWithPoints",
+								"updateProduct",
+								"688d0370dbd1630b64c57228"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteProduct",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODZmNTU0MDRkOGMzYmRlOGY5YmIwZGUiLCJpYXQiOjE3NTQwNzE4NDksImV4cCI6MTc1NDA4OTg0OX0.lp0h3CfEdaFPtwE9W_oHiKTQAYAFo6SS_E-uEtaGJ30",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"confirm\" : true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/pucharseWithPoints/deleteProduct/688d046de4ffc4a9bff67b03",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"pucharseWithPoints",
+								"deleteProduct",
+								"688d046de4ffc4a9bff67b03"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "FalshCards",
+			"item": [
+				{
+					"name": "CreateFlashCard",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODhjMGZhNTc0NzAwMTYxMWMxNTYyNjkiLCJpYXQiOjE3NTQwNzQwOTYsImV4cCI6MTc1NDA5MjA5Nn0.tvI_RmPC5pMKKSWRS0l-D4B3kIaGhZj9D9ijWaa7afw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"question\" : \"¿Cual es el valor que usamos para la gravedad?\",\r\n    \"answer\" : \"9.8\",\r\n    \"nameSubject\" : \"fisica fundamental\",\r\n    \"difficulty\" : \"Easy\"\r\n    \r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/flashcards/createFlashcard",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"flashcards",
+								"createFlashcard"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ViewFalshCardByUserAndCtegory",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODhjMGZhNTc0NzAwMTYxMWMxNTYyNjkiLCJpYXQiOjE3NTQwNzQwOTYsImV4cCI6MTc1NDA5MjA5Nn0.tvI_RmPC5pMKKSWRS0l-D4B3kIaGhZj9D9ijWaa7afw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/flashcards/viewFlashcard?nameSubject=fisica fundamental",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"flashcards",
+								"viewFlashcard"
+							],
+							"query": [
+								{
+									"key": "nameSubject",
+									"value": "fisica fundamental"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateFlashCard",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODhjMGZhNTc0NzAwMTYxMWMxNTYyNjkiLCJpYXQiOjE3NTQwNzQwOTYsImV4cCI6MTc1NDA5MjA5Nn0.tvI_RmPC5pMKKSWRS0l-D4B3kIaGhZj9D9ijWaa7afw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"question\" : \"¿Cual es el valor que usamos para la gravedad en kinal?\",\r\n    \"answer\" : \"9.8\",\r\n    \"nameSubject\" : \"fisica fundamental\",\r\n    \"difficulty\" : \"Easy\"\r\n    \r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/flashcards/updateFlashcard/688d0d365dcd4a1e034ef06a",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"flashcards",
+								"updateFlashcard",
+								"688d0d365dcd4a1e034ef06a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteFlashCards",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODhjMGZhNTc0NzAwMTYxMWMxNTYyNjkiLCJpYXQiOjE3NTQwNzQwOTYsImV4cCI6MTc1NDA5MjA5Nn0.tvI_RmPC5pMKKSWRS0l-D4B3kIaGhZj9D9ijWaa7afw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"confirm\" : true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/TDAHSystem/v1/flashcards/deleteFlashcard/688d0d365dcd4a1e034ef06a",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TDAHSystem",
+								"v1",
+								"flashcards",
+								"deleteFlashcard",
+								"688d0d365dcd4a1e034ef06a"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

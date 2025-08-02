@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "687747e0e1ea49ff9ec4e475"
+  },
+  "title": "Buenas tardes",
+  "content": "Hay tarea, y ya",
+  "author": {
+    "$oid": "6877456be44347316b064f1c"
+  },
+  "avatarUrl": "none",
+  "commentsP": [
+    {
+      "$oid": "68774d3247a0ae58202d6b4e"
+    },
+    {
+      "$oid": "68774ee147a0ae58202d6b56"
+    }
+  ],
+  "status": true,
+  "createdAt": {
+    "$date": "2025-07-16T06:34:08.345Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-16T07:04:01.981Z"
+  }
+}]

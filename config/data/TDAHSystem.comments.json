@@ -1,0 +1,38 @@
+[{
+  "_id": {
+    "$oid": "68774d3247a0ae58202d6b4e"
+  },
+  "authorComment": {
+    "$oid": "6877456be44347316b064f1c"
+  },
+  "content": "usted tiene un hermoso 0",
+  "publicationId": {
+    "$oid": "687747e0e1ea49ff9ec4e475"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-07-16T06:56:50.846Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-16T06:56:50.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68774ee147a0ae58202d6b56"
+  },
+  "authorComment": {
+    "$oid": "6877489fe1ea49ff9ec4e47d"
+  },
+  "content": "A bueno",
+  "publicationId": {
+    "$oid": "687747e0e1ea49ff9ec4e475"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-07-16T07:04:01.979Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-16T07:04:01.979Z"
+  }
+}]
